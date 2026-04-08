@@ -103,6 +103,11 @@ Message: ${formData.message || 'No message'}
               </div>
             </div>
             <div className="absolute -inset-4 border-2 border-[#FFD700]/30 rounded-3xl -z-10" />
+
+            <div className="mt-12 text-center bg-white/5 backdrop-blur-sm p-6 rounded-xl border border-[#FFD700]/20">
+              <p className="font-heading text-xl text-[#FFD700] mb-2">For Enquiries Contact</p>
+              <p className="font-ui font-semibold text-[#FFFFF0]/90 tracking-wider">8072988052, 7904810025</p>
+            </div>
           </div>
 
           {/* Form Side */}
