@@ -9,7 +9,7 @@ export default function MusicPlayer() {
 
   useEffect(() => {
     // Create audio element
-    audioRef.current = new Audio('/pavazha_malli.mp3');
+    audioRef.current = new Audio(import.meta.env.BASE_URL + 'pavazha_malli.mp3');
     audioRef.current.loop = true;
     audioRef.current.volume = 0.5;
 
