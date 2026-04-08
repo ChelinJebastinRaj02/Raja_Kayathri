@@ -94,7 +94,7 @@ Message: ${formData.message || 'No message'}
           {/* Image Side */}
           <div className={`relative transition-all duration-1000 delay-200 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-12'}`}>
             <div className="relative rounded-2xl overflow-hidden shadow-2xl transform lg:-rotate-2 hover:rotate-0 transition-transform duration-500">
-              <img src="/gallery/our-photo-1.jpg" alt="Wedding invitation" className="w-full h-[500px] object-cover" />
+              <img src="gallery/our-photo-1.jpg" alt="Wedding invitation" className="w-full h-[500px] object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-[#3A2465]/60 via-transparent to-transparent" />
               <div className="absolute bottom-8 left-8 right-8">
                 <p className="font-heading italic text-3xl text-[#FFD700] mb-2">Save the Date</p>

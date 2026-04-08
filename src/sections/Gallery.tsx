@@ -3,15 +3,15 @@ import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import { X, ZoomIn, Heart } from 'lucide-react';
 
 const galleryImages = [
-  { src: '/gallery/our-photo-1.jpg', size: 'large' },
-  { src: '/gallery/our-photo-2.jpg', size: 'wide' },
-  { src: '/gallery/our-photo-3.jpg', size: 'normal' },
-  { src: '/gallery/our-photo-4.jpg', size: 'normal' },
-  { src: '/gallery/our-photo-5.jpg', size: 'normal' },
-  { src: '/gallery/our-photo-6.jpg', size: 'normal' },
-  { src: '/gallery/our-photo-7.jpg', size: 'large' },
-  { src: '/gallery/our-photo-8.jpg', size: 'normal' },
-  { src: '/gallery/our-photo-9.jpg', size: 'normal' },
+  { src: 'gallery/our-photo-1.jpg', size: 'large' },
+  { src: 'gallery/our-photo-2.jpg', size: 'wide' },
+  { src: 'gallery/our-photo-3.jpg', size: 'normal' },
+  { src: 'gallery/our-photo-4.jpg', size: 'normal' },
+  { src: 'gallery/our-photo-5.jpg', size: 'normal' },
+  { src: 'gallery/our-photo-6.jpg', size: 'normal' },
+  { src: 'gallery/our-photo-7.jpg', size: 'large' },
+  { src: 'gallery/our-photo-8.jpg', size: 'normal' },
+  { src: 'gallery/our-photo-9.jpg', size: 'normal' },
 ];
 
 export default function Gallery() {
