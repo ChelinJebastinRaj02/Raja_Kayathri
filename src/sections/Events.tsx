@@ -158,8 +158,8 @@ export default function Events() {
           </p>
           <p className="font-body text-[#FFFFF0]/70 italic mt-4">
             With Love from<br />
-            <span className="text-[#FFD700]">S. Sneka B.Sc. & K. Dhanush</span><br />
-            <span className="text-[#FFD700]">Chelin Jebastin Raj B.E. & Jegatheesh B.E.</span>
+            <span className="text-[#FFD700]">Chelin Jebastin Raj B.E. & Jegatheesh B.E.</span><br />
+            <span className="text-[#FFD700]">S. Sneka B.Sc. & K. Dhanush</span>
           </p>
         </div>
 
