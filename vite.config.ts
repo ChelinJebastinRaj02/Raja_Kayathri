@@ -5,7 +5,7 @@ import { inspectAttr } from 'kimi-plugin-inspect-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/Raja_Kayathri/',
+  base: process.env.VERCEL ? '/' : '/Raja_Kayathri/',
   plugins: [inspectAttr(), react()],
   resolve: {
     alias: {
